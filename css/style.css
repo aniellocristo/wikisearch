@@ -1,0 +1,96 @@
+/*Styles*/
+
+body {
+  background-color: rgb(80, 80, 160);
+}
+
+.wrap {
+  margin: 0 auto;
+  max-width: 85%;
+}
+
+/*TEXT STYLES*/
+h1 {
+  color: rgb(255, 255, 255);
+  font-family: 'Ek Mukta', sans-serif;
+  font-weight: 400;
+  font-size: 50px;
+  text-align: center;
+}
+
+ h3 {
+   color: rgb(255, 255, 255);
+   font-family: 'Ek Mukta', sans-serif;
+   font-weight: 900;
+   font-size: 40px;
+   text-align: center;
+   margin-top: -5px;
+ }
+
+.faded1 {
+  color: rgb(80, 80, 160);
+}
+
+input[type="text"] {
+  color: rgb(255, 255, 255);
+  font-family: 'Ek Mukta', sans-serif;
+  font-size: 24px;
+}
+
+/*BUTTON STYLES*/
+.shell {
+  display: flex;
+  justify-content: center;
+}
+
+.button1 {
+  position: relative;
+  border: 3px solid rgb(255, 255, 255);
+  border-radius: 10px;
+  min-width: 50px;
+  width: 50px;
+  height: 50px;
+  margin: 0 10px;
+}
+
+.button2 {
+  position: relative;
+  border: 3px solid rgb(255, 255, 255);
+  border-radius: 10px;
+  width: inherit;
+  height: 50px;
+  margin: 0 10px;
+}
+
+.hover1 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  display: none;
+}
+
+.hover2 {
+  display: flex;
+  justify-content: center;
+}
+
+.fade2 {
+  width: 200px;
+  display: none;
+  margin-right: 10px;
+  background-color: inherit;
+  border: none;
+}
+
+.faded2:focus, input:focus{
+    outline: none;
+}
+
+/*IMAGE STYLES*/
+.img1 {
+  padding: 5px;
+}
