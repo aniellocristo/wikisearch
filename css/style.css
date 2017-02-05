@@ -11,12 +11,20 @@ body {
 
 a {
   text-decoration: none;
+  color: inherit;
 }
 
 .item {
   background-color: rgb(255, 255, 255);
   padding: 15px;
-  margin: 20px auto;
+  margin: 40px auto;
+  box-shadow: 0px 10px 50px 5px rgba(0,0,0,0.5);
+}
+
+p {
+  font-family: 'Ek Mukta', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
 }
 
 /*TEXT STYLES*/
@@ -103,7 +111,7 @@ input[type="text"] {
 }
 
 .fade2 {
-  width: 150px;
+  width: 125px;
   display: none;
   margin: 0 10px;
   background-color: inherit;
