@@ -9,6 +9,16 @@ body {
   max-width: 85%;
 }
 
+a {
+  text-decoration: none;
+}
+
+.item {
+  background-color: rgb(255, 255, 255);
+  padding: 15px;
+  margin: 20px auto;
+}
+
 /*TEXT STYLES*/
 h1 {
   color: rgb(255, 255, 255);
@@ -27,6 +37,19 @@ h1 {
    margin-top: -5px;
  }
 
+ h6 {
+   font-family: 'Ek Mukta', sans-serif;
+   font-weight: 900;
+   font-size: 20px;
+   margin: 0px;
+ }
+
+ .extract {
+   font-family: 'Ek Mukta', sans-serif;
+   font-weight: 400;
+   font-size: 14px;
+ }
+
 .faded1 {
   color: rgb(80, 80, 160);
 }
@@ -41,6 +64,7 @@ input[type="text"] {
 .shell {
   display: flex;
   justify-content: center;
+  margin-bottom: 20%;
 }
 
 .button1 {
@@ -79,9 +103,9 @@ input[type="text"] {
 }
 
 .fade2 {
-  width: 200px;
+  width: 150px;
   display: none;
-  margin-right: 10px;
+  margin: 0 10px;
   background-color: inherit;
   border: none;
 }
@@ -93,4 +117,26 @@ input[type="text"] {
 /*IMAGE STYLES*/
 .img1 {
   padding: 5px;
+}
+
+.img2 {
+  display: none;
+  padding: 5px;
+}
+
+/*MEDIA QUERIES*/
+
+@media (min-width: 450px) {
+  .fade2 {
+    width: 250px;
+  }
+
+  .shell {
+    margin-bottom: 5%;
+  }
+
+  .item {
+    width: 85%;
+    max-width: 1200px;
+  }
 }
